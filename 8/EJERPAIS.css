@@ -1,0 +1,127 @@
+
+
+p {
+    font-family: helvetica;
+    padding-left: 33vw;
+    padding-right: 33vw;
+    line-height: 1.6;
+  
+}
+
+ h1 {
+    font-family:serif;
+    text-align: center;
+    font-size: 60px;
+}
+
+ h2 { 
+     font-family: "helvetica";
+     box-sizing: content-box;
+     width: 600px;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 20px;
+     margin-bottom: 200px;
+   
+}
+
+h3 {
+    font-family: helvetica;
+    padding-left: 33vw;
+    padding-right: 33vw;
+}
+
+img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+        
+.foto1 {
+    height: auto;
+    width: 1400px;
+}
+        
+p span {
+    float: left;
+  width: 0.7em;
+  font-size: 800%;
+line-height: 80%;
+    
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+    border-bottom: 2px dotted;
+}
+
+.telef {
+   display: block;
+    margin-top: 50px;
+    width:500px;
+}
+
+.estilofecha {
+
+    font-size: 10px;
+    margin-left:auto;
+    padding-left: 180px;
+    margin-right: auto;
+    color:darkgrey;
+    border-bottom: none;
+    
+}
+
+.p1 {
+    margin-top: 60px;
+}
+
+
+.lista {
+    padding-top: 70px;
+    padding-left: 30vw;
+
+}
+
+
+.li  {
+    color: darkgrey;
+    font-family: "helvetica";
+    font-size: 12px;
+    display: block; 
+    display:inline;
+   padding-right:3px;
+    padding-left:3px;
+  
+}
+
+a.alist {
+    text-decoration-line: none;
+    color: darkgrey;
+    font-family: "helvetica";
+    font-size: 12px;
+    border-bottom:none;
+}
+
+
+img.cora, a.cora {
+    border-bottom: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20px;
+    height: 20px;
+    
+}
+
+div.ttp {
+
+   width: 500px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#e8e8e8;
+}
+
