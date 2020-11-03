@@ -16,21 +16,12 @@ hr {
 }
 
 
-figure {
-
-    width: auto;
+img {
+    width: 33%;
     height: auto;
-    overflow: hidden; 
+    filter: sepia(1);
 }
 
-.hoverbnb figure img {
-
-    -webkit-filter: grayscale(100%) blur(3px);
-	filter: grayscale(100%) blur(4px);
-	-webkit-transition: .7s ease-in-out;
-	transition: .7s ease-in-out;
-}
-.hoverbnb figure:hover img {
-	-webkit-filter: grayscale(0) blur(0);
-	filter: grayscale(0) blur(0);
+a:hover img {
+    filter: saturate(0);
 }
