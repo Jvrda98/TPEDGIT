@@ -1,0 +1,65 @@
+
+
+body {
+    font-size:40px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+}
+    body {
+
+background-image: url(fondo.jpg);
+background-repeat:no-repeat;
+
+}
+
+h2 {
+    font-size: 20px;
+    color:cadetblue;
+}
+
+
+.cajaCentral {
+    height: 100vh;
+    padding: 15vw;
+}
+.cajaInferior {
+    height: 50vh;
+    background-color: black;
+    padding: 15vw;
+}
+ul {
+    color:white;
+    list-style-type: none;
+    line-height: 60px;
+}
+    
+a {
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.inicio {
+    position: relative;
+    
+}
+
+.team {
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 600px;
+    color:white;
+}
+
+.barrita {
+    
+    color:black;
+    size:30px;
+}
+
+.p1 {
+    line-height: 70px;
+}
+
