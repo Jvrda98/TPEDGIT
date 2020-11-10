@@ -1,148 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Goldman&display=swap');
+
 * {
     background-color:#0000;
     box-sizing: content-box;
-
-}
-
-.fade {
-    background-image: radial-gradient(#B8E1FF, #0000, #0000);
-    height: 400px;
-    text-align: center;
+background-color: #2F1A59;
+    justify-content:center;
 }
 
 h1 {
-    text-align: center;
-    font-family: "segoe script";
-    padding-top: 140px;
-    font-size: 80px;
-    color: white;
-}
 
-.prin {
-    
-    border-top:2px solid;
-    color:#B8E1FF;
-    margin-right: auto;
     margin-left: auto;
-    margin-top: -40px;
-     width: 1000px;
+    margin-right: auto; 
+    font-family: "Audiowide";
+    font-size: 10em;
+    text-align: center;
+    font-weight:normal;
+    line-height: 0.9em;
+    height: 450px;
+    -webkit-background-clip:text;
+    display: flex;
+    margin-top: -500px;
+    width: 620px;
+    color: transparent;
+    background-image: linear-gradient(to top left, #481bec, #9323dd, #f22f2f, #ff7d21)
+        
 }
 
-
-
-
-
-.container {
-  width: 700px;
-  height: 350px;
-  position: absolute;
-  left: 0;
-  right: 0;
-    padding-top: 550px;
-  margin: 0 auto;
-  top: 20px;
-}
-.div-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.div-img.hidden {
-  overflow: hidden;
-}
-.div-img .img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  transform: translate(0px, 0px);
-  -ms-transform: translate(0px, 0px);
-  -moz-transform: translate(0px, 0px);
-  -webkit-transform: translate(0px, 0px);
-  -o-transform: translate(0px, 0px);
-  -webkit-transition: all 500ms ease-in-out;
-  -moz-transition: all 500ms ease-in-out;
-  -ms-transition: all 500ms ease-in-out;
-  -o-transition: all 500ms ease-in-out;
-}
-.div-img .text {
-  font-family: 'Courier';
-  position: absolute;
-    color: #B8E1FF;
-  z-index: -1;
-  display: block;
-  bottom: -30px;
-    font-size: 38px;
-  width: 100%;
-  text-align: center;
-}
-.div-img:hover .img {
-  transform: translate(0px, -100px);
-  -ms-transform: translate(0px, -100px);
-  -moz-transform: translate(0px, -100px);
-  -webkit-transform: translate(0px, -100px);
-  -o-transform: translate(0px, -100px);
+.fadetitulo {
+     width: 1850px;
+    height:700px;
+    background-image: radial-gradient(#140B26, #2F1A59, #2F1A59);
 }
 
-
-
-
-
-.container2 {
+.fotoscolumna div {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 1500px;
+    margin-left: auto;
+    margin-right:auto;
   
-  width: 200px;
-  height: 200px;
-  position: absolute;
-margin-left: 750px;
-    margin-top: 600px;
-}
-.div2-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.div2-img .img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
-  height: 400px;
-  border-radius: 500px;
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 150px;
-  transform: translate(0px);
-  -ms-transform: translate(0px);
-  -moz-transform: translate(0px);
-  -webkit-transform: translate(0px);
-  -o-transform: translate(0px);
-  -webkit-transition: all 500ms ease-in-out;
-  -moz-transition: all 500ms ease-in-out;
-  -ms-transition: all 500ms ease-in-out;
-  -o-transition: all 500ms ease-in-out;
-}
-.div2-img .text2 {
-    display: inline-flex;
-  font-family: 'Courier';
-  position: absolute;
-    color:#B8E1FF;
-  z-index: -1;
-  display: block;
-    font-size: 50px;
-    top: 15%;
-  right:-400px;
-    left: 150px;
-    
-   margin-right: 250px;
-  padding-right: 5px;
-}
-.div2-img:hover .img {
-  transform: translate(-260px, 0px);
-  -ms-transform: translate(-260px, 0px);
-  -moz-transform: translate(-260px, 0px);
-  -webkit-transform: translate(-260px, 0px);
-  -o-transform: translate(-260px, 0px);
-}
-
 
     
+
     
+}
+    
+    
+
+
+
