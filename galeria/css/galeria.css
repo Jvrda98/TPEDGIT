@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Goldman&display=swap');
+
+* {
+    background-color:#2e0340;
+    box-sizing: content-box;
+    justify-content:center;
+}
+
+h1 {
+
+    margin-left: auto;
+    margin-right: auto; 
+    font-family: "Audiowide";
+    font-size: 10em;
+    text-align: center;
+    font-weight:normal;
+    line-height: 0.9em;
+    height: 450px;
+    -webkit-background-clip:text;
+    display: flex;
+    margin-top: -500px;
+    width: 620px;
+    color: transparent;
+    background-image: linear-gradient(to top left, #481bec, #9323dd, #f22f2f, #ff7d21)
+        
+}
+
+.fadetitulo {
+     width: 1850px;
+    height:700px;
+    background-image: radial-gradient(#670049, #2e0340, #2e0340);
+}
+
+.elss {
+    margin-left: auto;
+     margin-right: auto;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: "courier";
+    width: 1100px;
+    color: #ff7d21;
+    border-bottom: 2px solid;
+    border-bottom-color: #ff7d21;
+}
+
+
+
+
+img {
+    
+   width:250px;
+    height: auto;
+}
+    
+
+.contenedor {
+    margin-top: 100px;
+    
+    position: absolute;
+}
+
+.contenedor div {
+    
+    display: flex;
+    float: left; flex-direction: column;
+    width: 33%;
+    height: 350px;;
+    margin-left: auto;
+    align-items: center;
+    margin-right:auto;
+  
+}
+
+
+
+.div-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
+.div-img .img {
+  display: block;
+    margin-top:100px;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+width:33%;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  transform: translate(0px);
+  -ms-transform: translate(0px);
+  -moz-transform: translate(0px);
+  -webkit-transform: translate(0px);
+  -o-transform: translate(0px);
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+}
+        
+
+.div-img:hover .img {
+ transform: scale(2);
+  -ms-transform: scale(2);
+  -moz-transform: scale(2);
+  -webkit-transform: scale(2);
+  -o-transform: scale(2);
+
+    
+}
+    
+        
+.contenedor p  {
+ color: #ff7d21;
+    padding-bottom: 10px; 
+    float: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: "courier";
+    }
+
+
+
+.text {
+    margin-top:100;
+    opacity: 0%;
+    
+    background-color: transparent;
+       font-family: "courier";
+    width: auto;
+   
+
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  
+  transition: transfom opacity 500ms;
+}
+    
+
+
+.div-img:hover .text {
+  color: #9323dd;
+font-size: 35px;
+opacity: 1;
+     
+}
+    
+span img{
+    filter: grayscale(100%);
+}
+    span img:hover {
+        filter: grayscale(0%);
+
+
+

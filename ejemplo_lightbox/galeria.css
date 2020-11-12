@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Goldman&display=swap');
+
+* {
+    background-color:#0000;
+    box-sizing: content-box;
+background-color: #2F1A59;
+    justify-content:center;
+}
+
+h1 {
+
+    margin-left: auto;
+    margin-right: auto; 
+    font-family: "Audiowide";
+    font-size: 10em;
+    text-align: center;
+    font-weight:normal;
+    line-height: 0.9em;
+    height: 450px;
+    -webkit-background-clip:text;
+    display: flex;
+    margin-top: -500px;
+    width: 620px;
+    color: transparent;
+    background-image: linear-gradient(to top left, #481bec, #9323dd, #f22f2f, #ff7d21)
+        
+}
+
+.fadetitulo {
+     width: 1850px;
+    height:700px;
+    background-image: radial-gradient(#140B26, #2F1A59, #2F1A59);
+}
+
+.fotoscolumna div {
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: auto;
+    margin-left: auto;
+    align-items: center;
+    margin-right:auto;
+  
+}
+
+img {
+   
+    width: 300px;
+    height: auto;
+}
+
+
+
+
+    
+    
+
+
+
