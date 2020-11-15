@@ -4,9 +4,6 @@ body {
     font-size:40px;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     letter-spacing: 2px;
-}
-    body {
-
 background-image: url(fondo.jpg);
 background-repeat:no-repeat;
 
@@ -63,3 +60,31 @@ a:hover {
     line-height: 70px;
 }
 
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+    font-family: "helvetica";
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+    position: relative;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+    transform: translateY(5px);
+  background: #ddd;
+  color: black;
+}
