@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bonbon&family=Condiment&family=Major+Mono+Display&family=Molle:ital@1&family=Nerko+One&family=Permanent+Marker&family=Sacramento&display=swap');
+
+
+
+
+
+* { box-sizing: content-box;
+    
+}
+
+
+.contenedor {   
+font-size: 30px;
+
+}
+   
+.caja {        
+width: 25%;
+margin:20px;
+background-color: aquamarine;
+display: inline-block;
+text-align: center;
+}
+
+
+.caja1  {
+    font-family: "Nerko One";
+}
+
+
+.caja2  {
+    font-family: "Major Mono Display";
+}
+
+.caja3  {
+    font-family: 'Sacramento', cursive;
+
+}
+
+.caja4  {
+
+font-family: 'Bonbon', cursive;
+}
+
+.caja5 {
+
+font-family: 'Condiment', cursive;
+}
+
+.caja6 {
+
+font-family: 
+    'Molle', cursive;
+}

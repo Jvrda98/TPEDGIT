@@ -1,0 +1,15 @@
+* {
+    font-family: "courier";
+}
+
+.contenedor, div {
+    display: flex;
+    flex-direction: row;
+}
+    
+.caja {
+    
+ width: 33%;
+    background-color: aquamarine;
+    
+}
